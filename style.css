@@ -1,0 +1,57 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+.card {
+  display: flex;
+  border: 1px solid navy;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 0.5em;
+  width: 25em;
+  max-width: 100%;
+  position: relative;
+}
+
+.card img {
+  aspect-ratio: 1/1;
+  height: 5em;
+  border-right: 0.3em solid blue;
+  border-bottom: 0.3em solid blue;
+  border-radius: 0.5em;
+  margin-right: 1em;
+}
+
+.card .content p {
+  margin: 0px;
+}
+
+.card .content button {
+  margin-top: 1em;
+  border-radius: 4px;
+  background-color: rgb(221, 221, 221);
+}
+
+.hidden {
+  display: none;
+}
+
+#app {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+}
+
+.reloadButton {
+  position: absolute;
+  width: 6em;
+  height: 6em;
+  background: rgb(177, 177, 177);
+  border-radius: 50%;
+  border: 1px solid black;
+  right: -2em;
+  bottom: 0;
+}
